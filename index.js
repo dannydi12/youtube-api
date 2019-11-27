@@ -13,7 +13,7 @@ function formatList(videos) {
     for(video of videos) {
         html += `
         <li>
-            <a href="https://www.youtube.com/watch?v=${video.id.videoId}">
+            <a href="https://www.youtube.com/watch?v=${video.id.videoId}" target="blank_">
                 <h3>${video.snippet.title}</h3>
                 <img src="${video.snippet.thumbnails.high.url}" alt="">
             </a>
